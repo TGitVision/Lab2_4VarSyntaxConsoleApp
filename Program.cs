@@ -71,10 +71,11 @@ namespace Lab2_4VarSyntaxConsoleApp
             // 18. Create a variable called results as an integer and assign it the value of 99 * textToNumber. Use int.Parse() 
             // to complete the operation. Print the results.
             int results = 99 * int.Parse(textToNumber);
+            Console.WriteLine(results);
 
             // 19. Create a DateTime variable called rightNow and set it’s value to Datetime.Now. Print the results.
             DateTime rightNow = DateTime.Now;
-
+            Console.WriteLine(rightNow);
         }
     }
 }
